@@ -79,7 +79,6 @@ def to_camel_case(underscore_str):
     underscore_str = underscore_str.strip()
     underscore_str = underscore_str.lower()
     under_str = underscore_str.split(" ")
-    print(under_str)
     for i in range (len(under_str)):
         under_str[i] = under_str[i].capitalize()
         under_str[0] = under_str[0].lower()
